@@ -1,20 +1,20 @@
+<!-- Importa o model e e seta o titulo -->
 @model Login
-
 @{
     ViewData["Title"] = "Signin";
 }
 
 <div class="text-center">
-    <h1 class="h3 laranja mb-3 font-weight-normal">Sign-up</h1>
-    @if (ViewBag.checks)
+    <h1 class="h3 laranja mb-3 font-weight-normal">Sign-up</h1> <!-- Header -->
+    @if (ViewBag.checks) // Verifica se o Login é verdadeiro 
     {
-        <h1 class="h6 mb-3 font-weight-normal" style="color: green;">@ViewBag.mensagemSign</h1>
+        <h1 class="h6 mb-3 font-weight-normal" style="color: green;">@ViewBag.mensagemSign</h1> // Mensagem de sucesso
     }
     else
     {
-        <h1 class="h6 mb-3 font-weight-normal" style="color: red;">@ViewBag.mensagemSign</h1>
+        <h1 class="h6 mb-3 font-weight-normal" style="color: red;">@ViewBag.mensagemSign</h1>   // Mensagem de falha
     }
-    <form class="form-signin" method="POST">
+    <form class="form-signin" method="POST"> 
         <div class="form-group">
             <input asp-for="Email" type="email" class="form-control mb-1" required placeholder="Endereço de Email"/>
             <input asp-for="Senha" type="password" class="form-control" required placeholder="Senha"/>

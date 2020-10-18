@@ -1,27 +1,26 @@
+<!-- Importa o model Contato e seta o título da página -->
 @model Contato
+@ViewData["Title"] = "Contato";
 
-@{
-    ViewData["Title"] = "Contato";
-}
-
-
+<!-- Cabeçalho -->
 <h1 class="laranja h3 mb-3 font-weight-normal">Entre em contato!</h1>
 <h1 class="azul h6 mb-3 font-weight-normal">Entre em contato para agendarmos um teste grátis da plataforma.</h1>
 
+<!-- Formulário -->
 <form method="POST">
-    <div class="form-group">
+    <div class="form-group" id="nome">
         <label asp-for="Nome">Nome: </label>
-        <input asp-for="Nome" class="form-control" type="text"/>
+        <input asp-for="Nome" class="form-control" type="text" />
     </div>
-    <div class="form-group">
+    <div class="form-group" id="email" >
         <label asp-for="Email">Email: </label>
-        <input asp-for="Email" class="form-control" type="email"/>
+        <input asp-for="Email" class="form-control" type="email" />
     </div>
-    <div class="form-group">
+    <div class="form-group" id="telefone" >
         <label asp-for="Tele">Telefone: </label>
-        <input asp-for="Tele" class="form-control" type="tel"/>
+        <input asp-for="Tele" class="form-control" type="tel" />
     </div>
-    <div class="form-group">
+    <div class="form-group" id="desc" >
         <label asp-for="Desc">Descrição: </label>
         <textarea asp-for="Desc" class="form-control" rows="3"></textarea>
     </div>

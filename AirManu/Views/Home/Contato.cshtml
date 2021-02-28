@@ -1,6 +1,8 @@
 <!-- Importa o model Contato e seta o título da página -->
 @model Contato
-@ViewData["Title"] = "Contato";
+@{
+    ViewData["Title"] = "Contato";
+}
 
 <!-- Cabeçalho -->
 <h1 class="laranja h3 mb-3 font-weight-normal">Entre em contato!</h1>
@@ -8,21 +10,29 @@
 
 <!-- Formulário -->
 <form method="POST">
-    <div class="form-group" id="nome">
-        <label asp-for="Nome">Nome: </label>
-        <input asp-for="Nome" class="form-control" type="text" />
+    <div class="row mb-3" id="nome">
+        <label asp-for="Nome" class="col-1 col-form-label">Nome: </label>
+        <div class="col-11">
+            <input asp-for="Nome" class="form-control" type="text" />
+        </div>
     </div>
-    <div class="form-group" id="email" >
-        <label asp-for="Email">Email: </label>
-        <input asp-for="Email" class="form-control" type="email" />
+    <div class="row mb-3" id="email">
+        <label asp-for="Email" class="col-1 col-form-label">Email: </label>
+        <div class="col-11">
+            <input asp-for="Email" class="form-control" type="email" />
+        </div>
     </div>
-    <div class="form-group" id="telefone" >
-        <label asp-for="Tele">Telefone: </label>
-        <input asp-for="Tele" class="form-control" type="tel" />
+    <div class="row mb-3" id="telefone">
+        <label asp-for="Tele" class="col-1 col-form-label">Telefone: </label>
+        <div class="col-11">
+            <input asp-for="Tele" class="form-control" type="tel" />
+        </div>
     </div>
-    <div class="form-group" id="desc" >
-        <label asp-for="Desc">Descrição: </label>
-        <textarea asp-for="Desc" class="form-control" rows="3"></textarea>
+    <div class="row mb-3" id="desc">
+        <label asp-for="Desc" class="col-1 col-form-label">Descrição: </label>
+        <div class="col-11">
+            <textarea asp-for="Desc" class="form-control" rows="3"></textarea>
+        </div>
     </div>
     <button type="submit" class="btn meubotao">Enviar</button>
 </form>

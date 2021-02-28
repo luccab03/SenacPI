@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/AirManu.csproj",
+  "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/AirManu.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,52 +14392,52 @@
   "RootNamespace": "AirManu",
   "Documents": [
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Home/Login.cshtml",
-      "TargetPath": "Views\\Home\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Home/Contato.cshtml",
-      "TargetPath": "Views\\Home\\Contato.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Home/Signin.cshtml",
-      "TargetPath": "Views\\Home\\Signin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Home/Precos.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Home/Precos.cshtml",
       "TargetPath": "Views\\Home\\Precos.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Home/Signin.cshtml",
+      "TargetPath": "Views\\Home\\Signin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Home/Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Home/Contato.cshtml",
+      "TargetPath": "Views\\Home\\Contato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }

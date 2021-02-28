@@ -3,15 +3,34 @@
     ViewData["Title"] = "Ínicio";
 }
 
-<div class="text-center">
+<div class="text-center container">
     <h1 class="display-4 laranja">AirManu</h1>
-    <p class="azul">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu lobortis orci. Vivamus egestas nibh
-        lacus, vestibulum feugiat purus varius luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        iaculis varius iaculis. Nunc sed ligula nec ligula suscipit dignissim eget ut ipsum. Proin tincidunt sodales
-        nisi iaculis luctus. Quisque efficitur rutrum purus. Curabitur ut justo ut turpis fermentum posuere vel et
-        augue. Curabitur pellentesque lacus libero, sit amet pharetra ligula aliquam vel.</p>
+    <p class="azul">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu lobortis orci.</p>
 </div>
-<div class="container">
+
+<div id="controlesCarrosel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+            <img src="~/img/slide1.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/slide2.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/slide3.jpg" class="d-block w-100" alt="Slide 3">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#controlesCarrosel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#controlesCarrosel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Proximo</span>
+    </a>
+</div>
+
+<div class="container pt-2">
     <h3 class="laranja">Sobre Nós</h3>
     <p class="azul">Proin a pulvinar turpis, eu facilisis nunc. Vivamus interdum vulputate pellentesque. Nunc posuere
         mauris vitae ex mattis, vitae tempor purus convallis. Interdum et malesuada fames ac ante ipsum primis in

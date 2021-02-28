@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luccab/OneDrive/Curso/PI1/AirManu/AirManu.csproj",
+      "projectUniqueName": "/Users/luccab/OneDrive/Curso/PI/AirManu/AirManu.csproj",
       "projectName": "AirManu",
-      "projectPath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/AirManu.csproj",
+      "projectPath": "/Users/luccab/OneDrive/Curso/PI/AirManu/AirManu.csproj",
       "packagesPath": "/Users/luccab/.nuget/packages/",
-      "outputPath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/obj/",
+      "outputPath": "/Users/luccab/OneDrive/Curso/PI/AirManu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/luccab/.nuget/NuGet/NuGet.Config"

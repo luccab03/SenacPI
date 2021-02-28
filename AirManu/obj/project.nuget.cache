@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sskirx7Q9yQ6NU7w4g9+tHZ4JXXgo3VluKgRotpTWOJXVCFwLueEdD9WUs+d5bAwYsJ+NGBjepondhWsEyAffQ==",
+  "dgSpecHash": "mWyfVQsq1WB+NbmPNsIGA4rgVBYRDVDMHJRtjnrm5IL2qFG63d0A/X2vCVyHH+JEnnRhcw7cyKrVufWeF4j2rg==",
   "success": true,
-  "projectFilePath": "/Users/luccab/OneDrive/Curso/PI1/AirManu/AirManu.csproj",
+  "projectFilePath": "/Users/luccab/OneDrive/Curso/PI/AirManu/AirManu.csproj",
   "expectedPackageFiles": [
     "/Users/luccab/.nuget/packages/mysqlconnector/1.0.1/mysqlconnector.1.0.1.nupkg.sha512"
   ],
